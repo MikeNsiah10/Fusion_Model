@@ -1,0 +1,14 @@
+torch
+pandas
+transformers
+torchaudio
+numpy
+FFmpeg 
+soundfile
+scikit-learn
+pytorch-lightning
+matplotlib
+torchmetrics
+yt_dlp
+wandb
+einops
