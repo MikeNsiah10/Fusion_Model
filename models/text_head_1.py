@@ -22,7 +22,7 @@ class TextClassifier(pl.LightningModule):
         tokenizer=None,
         lr_backbone=1e-5,
         lr_classifier=1e-4,
-        #unfreeze_start_epoch=2,   # 👈 unfreeze after this many epochs
+        #unfreeze_start_epoch=2,   # unfreeze after this many epochs
         plot_dir="/home/student/m/mnsiah/modality_fusion/Evaluation/train_cm_plots/text_plots",
     ):
         super().__init__()
